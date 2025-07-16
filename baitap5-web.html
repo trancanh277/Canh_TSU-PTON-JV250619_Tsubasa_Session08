@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 5 web</title>
+    <link rel="stylesheet" href="./baitap5-web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><img src="/anh/logo.png" alt=""></div>
+        <div class="icon">
+            <span>USD</span>
+            <span><img src="/anh/Flag_of_the_United_States_(51_stars).svg.png" alt=""></span>
+            <span><i class="fas fa-bell"></i></span>
+            <span class="icon-1"></span>
+            <span class="images"><img src="/anh/IMG_1416 (1).JPG" alt=""></span>
+            <select class="select" name="name" id="">
+                <option value="">Delowar</option>
+            </select>
+        </div>
+    </header>
+    <hr>
+    <main class="container">
+        <section class="left-content">
+            <nav class="nav-path">
+                <a href="#">Home</a> >
+                <a href="#">Hotel list</a> >
+                <a href="#">Hotel details</a> >
+                <span>Confirm and pay</span>
+            </nav>
+            <h1>Confirm your Book</h1>
+            <hr>
+            <h2>Your tour</h2>
+            <div class="thongtin">
+                <label for="date">Date</label>
+                <input type="text" id="date" placeholder="Jun 27 - 30, 2020" required>
+            </div>
+            <div class="thongtin">
+                <label for="Traveller">Traveller</label>
+                <input type="text" id="Traveller" placeholder="1 passenger" required>
+            </div>
+
+
+
+            <div class="payment">
+                <h2>Creadit Cards</h2>
+                <img src="/anh/mayment card.png" alt="">
+            </div>
+            <form class="card">
+                <img src="/anh/card 1.png" alt="">
+                <img src="/anh/card 2.png" alt="">
+                <label for="">Card number</label>
+                <input type="text" id="number" name="number" placeholder="5884 6241 4444 3333">
+                <div class="card-label">
+                    <label for="">Expiry Date</label>
+                    <label for="">CVC/CVV</label>
+                </div>
+                <div class="card-input">
+                    <input type="date" name="date" id="date">
+                    <input type="password" name="CVC" id="CVC" placeholder="****">
+                </div>
+                <div class="checkbox-label">
+                    <label><input class="checkbox" type="checkbox" checked>Save Card</label>
+                </div>
+
+                <button class="button" type="submit">Confirm and reserve</button>
+            </form>
+        </section>
+        <section class="right-content">
+            <div class="tongquat">
+                <h3>Switzerland Hotels and Places to Stay</h3>
+                <p>⭐ 4.8 <span>(122 reviews)</span>
+                    <img src="/anh/daniel-corneschi-N6HTCyN50p0-unsplash 1.png" alt="">
+                <div class="phong">
+                    <p>1 bedroom + 1 private room</p>
+                    <hr>
+                </div>
+                <div class="dates-label">
+                    <label for="">Check In</label>
+                    <label for="">Check Out</label>
+                </div>
+                <div class="dates-input">
+                    <input type="text" name="checkin" id="checkin" placeholder="Jun 27, 2020">
+                    <input type="text" name="checkout" id="checkout" placeholder="Jun 30, 2020">
+                </div>
+                <div class="guest">
+                    <label for="">Guest</label>
+                    <input type="text" name="guest" id="guest" placeholder="2 guests">
+                </div>
+            </div>
+            <h2>Booked details</h2>
+            <div class="tongquat">
+                <div class="gia">
+                    <span>$119 + 5 nights</span><span><b>$833</b></span>
+                </div>
+                <div class="gia">
+                    <span>Ocupancy text and fee</span><span><b>-$125</b></span>
+                </div>
+                <div class="gia">
+                    <span>Sevice free</span><span><b>$103</b></span>
+                </div>
+                <div class="gia tongcong">
+                    <span>Total</span><span>$833</span>
+                </div>
+                <a href="#">Report this property</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="subscribe">
+            <h3>Get our pro offers</h3>
+            <p>Create a visual identity for your company. and an overall brand</p>
+            <div class="offers">
+                <input type="email" id="email" name="email" placeholder="Enter email...">
+                <button class="button-subscribe" type="submit">Subscribe</button>
+            </div>
+        </section>
+        <section class="footer-cols">
+            <div class="footer-icon">
+                <div class="mode"></div>
+                <img src="/anh/logo.png" alt="">
+                <p>This is the team that specializes in making sure the interior looks cool</p>
+
+                <div class="light">
+                    <span></span><i class="fas fa-sun"></i></span>
+                    <span></span><i class="fas fa-moon"></i></span>
+                </div>
+            </div>
+            </div>
+            <div class="mode">
+                <h4>Services</h4>
+                <ul>
+                    <li>Travel Booking</li>
+                    <li>Flight Booking</li>
+                    <li>Car Booking</li>
+                </ul>
+
+            </div>
+            <div class="mode">
+                <h4>Support</h4>
+                <ul>
+                    <li>Account</li>
+                    <li>Legal</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="mode">
+                <h4>Business</h4>
+                <ul>
+                    <li>Success</li>
+                    <li>Blog</li>
+                    <li>Travel Guide</li>
+                </ul>
+            </div>
+
+
+        </section>
+    </footer>
+    </footer>
+
+</body>
+
+</html>

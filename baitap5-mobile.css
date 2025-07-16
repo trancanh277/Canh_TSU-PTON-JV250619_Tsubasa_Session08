@@ -1,0 +1,190 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon .icon-1 {
+    width: 1px;
+    height: 40px;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+.icon .images img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    padding: 20px;
+    max-width: 768px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    padding: 30px;
+}
+
+.thongtin {
+    margin: 30px;
+    background-color: rgb(241, 237, 237);
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.thongtin label {
+    display: block;
+}
+
+.thongtin input {
+    border: none;
+    background-color: rgb(241, 237, 237);
+}
+
+.booking {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    line-height: 30px;
+}
+
+.tongquat {
+    padding: 15px 30px;
+}
+
+.tongquat img {
+    width: 100%;
+}
+
+.gia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tongcong {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.tongquat a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 30%;
+}
+
+.payment {
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 20px;
+}
+.card-label{
+display: flex;
+gap: 30px;
+}
+.card-label label{
+    width: calc(50% - 30px);
+}
+.card-input{
+    display: flex;
+    gap:30px;
+}
+.card-input input{
+    width: calc(50% - 30px);
+}
+.card img{
+    margin: 10px;
+}
+.card label{
+    display: block;
+    padding: 10px 0;
+}
+.card input{
+    border-radius: 4px;
+    padding: 10px;
+}
+.checkbox{
+    accent-color: blue;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+}
+.subscribe{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    line-height: 35px;
+    padding: 20px;
+    margin: 20px;
+}
+.offers{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+.offers input{
+    flex-grow: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.button-subscribe{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+.footer{
+    background-color:aliceblue;
+    line-height: 35px;
+}
+.bot-footer{
+    margin: 20px;
+}
+.bot-footer ul{
+    list-style: none;
+}
+.mode{
+    display:inline;    
+    background-color: white;
+    margin: 30px;
+    border-radius: 4px;
+}
+.mode span {
+    padding: 10px;
+}
